@@ -1,0 +1,372 @@
+@font-face{
+	font-family: pixel;
+	src: url('Ac437_IBM_VGA_8x16.ttf');
+}
+
+#home{
+	margin: 0;
+	font-family: pixel;
+	background: url('img/title_img.png');
+	background-attachment: fixed;
+	max-width: 100%;
+	height: auto;
+	background-position: center;
+}
+
+body{
+	margin: 0;
+	font-family: pixel;
+	background: url('img/bg.png');
+	background-attachment: fixed;
+	background-size: 50%;
+	background-position: center;
+}
+
+.file{
+	width: auto;
+	display: flex;
+	padding-left: 1.5%;
+	margin: 0;
+	font-size: 1em;
+	color: white;
+	background: linear-gradient(90deg, #493cfa, #ca35de);
+}
+
+.topnav{
+	padding-left: 1.5%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	display: flex;
+	background-color: #989898;
+	box-shadow: 1px 1px 1px #000;
+	width: auto;
+}
+
+.topnav a{
+	width: auto;
+	display: flex;
+	text-decoration: none;
+	color: black;
+	font-size: 2.1em;
+	padding-left: 0.5em;
+	padding-right:0.5em;
+	margin-right: 0.5em;
+	box-shadow: -2px -2px #e0dede, 
+				-2px 0 #e0dede, 
+				0 -2px #e0dede, 
+				-4px -4px white, 
+				-4px 0 white, 
+				0 -4px white, 
+				2px 2px #818181, 
+				0 2px #818181, 
+				2px 0 #818181, 
+				2px -2px #e0dede, 
+				-2px 2px #818181, 
+				-4px 2px white, 
+				-4px 4px black, 
+				4px 4px black, 
+				4px 0 black, 
+				0 4px black, 
+				2px -4px white, 
+				4px -4px black;
+}
+
+.topnav a:active{
+	box-shadow: -2px -2px #818181, 
+    			-2px 0 #818181, 
+    			0 -2px #818181, 
+    			-4px -4px black, 
+    			-4px 0 black, 
+    			0 -4px black, 
+    			2px 2px #e0dede, 
+    			0 2px #e0dede, 
+    			2px 0 #e0dede,  
+    			2px -2px #818181, 
+    			-2px 2px #e0dede, 
+    			-4px 2px black, 
+    			-4px 4px white, 
+    			4px 4px white, 
+    			4px 0 white, 
+    			0 4px white, 
+    			2px -4px black, 
+    			4px -4px white;
+}
+
+.title{
+	width:auto;
+	letter-spacing: 10px;
+	color: white;
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+	font-size: 5.6em;
+	text-align: center;
+	text-shadow: 0 0 0.1em #ca35de, 
+	 			0 0 0.2em #ca35de, 
+	 			0 0 0.3em #ca35de, 
+	 			0 0 0.4em #ca35de,
+	 			0 0 0.6em #ca35de, 
+	 			0 0 0.8em #ca35de, 
+	 			0 0 1.0em #ca35de, 
+	 			0 0 1.2em #ca35de;
+}
+
+.index{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.description_index {
+	width: 75%;
+	font-size: 3.6em;
+	background: linear-gradient(90deg, #b247f5, #fa3cc1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.description_index p{
+	text-shadow: 0px 1px 1px #fff, 
+				0 -1px 1px #000;
+	color: #00316e;
+}
+
+.description_index img{
+	padding-bottom: 2em;
+}
+
+
+.about{
+	margin-top: 3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.about_text{
+	width: 75%;
+	background:linear-gradient(90deg, #b247f5, #fa3cc1) ;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.about_text h1{
+	text-shadow: 0px 1px 1px #fff, 
+				0 -1px 1px #000;
+	color: #00316e;
+	font-size: 3.75em;
+}
+
+.about_text p{
+	text-shadow: 0px 1px 1px #fff, 
+				0 -1px 1px #000;
+	color: #00316e;
+	font-size: 2.25em;
+}
+
+.video{
+	background:linear-gradient(90deg, #b247f5, #fa3cc1);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menus{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.entrance1 h1{
+	color: white;
+	font-size: 3.5em;
+	text-shadow: 0 0 0.1em #ca35de, 
+	 			0 0 0.2em #ca35de, 
+	 			0 0 0.3em #ca35de, 
+	 			0 0 0.4em #ca35de,
+	 			0 0 0.6em #ca35de, 
+	 			0 0 0.8em #ca35de, 
+	 			0 0 1.0em #ca35de, 
+	 			0 0 1.2em #ca35de;
+}
+
+.entrance1 a{
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.entrance1 img{
+	width: 15%;
+	height: 15%;
+}
+
+
+.entrance2 a{
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.entrance2 h1{
+	color: white;
+	font-size: 3.5em;
+	text-shadow: 0 0 0.1em #ca35de, 
+	 			0 0 0.2em #ca35de, 
+	 			0 0 0.3em #ca35de, 
+	 			0 0 0.4em #ca35de,
+	 			0 0 0.6em #ca35de, 
+	 			0 0 0.8em #ca35de, 
+	 			0 0 1.0em #ca35de, 
+	 			0 0 1.2em #ca35de;
+}
+
+.entrance2 img{
+	width: 15%;
+	height: 15%;
+}
+
+.entrance3 a{
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.entrance3 h1{
+	color: white;
+	font-size: 3.5em;
+	text-shadow: 0 0 0.1em #ca35de, 
+	 			0 0 0.2em #ca35de, 
+	 			0 0 0.3em #ca35de, 
+	 			0 0 0.4em #ca35de,
+	 			0 0 0.6em #ca35de, 
+	 			0 0 0.8em #ca35de, 
+	 			0 0 1.0em #ca35de, 
+	 			0 0 1.2em #ca35de;
+}
+
+.entrance3 img{
+	display: flex;
+	justify-content: center;
+	width: 15%;
+	height: 15%;
+}
+
+.gallery{
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	text-shadow: 0 0 0.1em #ca35de, 
+	 			0 0 0.2em #ca35de, 
+	 			0 0 0.3em #ca35de, 
+	 			0 0 0.4em #ca35de,
+	 			0 0 0.6em #ca35de, 
+	 			0 0 0.8em #ca35de, 
+	 			0 0 1.0em #ca35de, 
+	 			0 0 1.2em #ca35de;
+	padding-top: 2em;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+	background:linear-gradient(90deg, #b247f5, #fa3cc1) ;
+  flex: 15%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.B{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.blog{
+	background:linear-gradient(90deg, #b247f5, #fa3cc1) ;
+	padding-top: 3em;
+	display: flex;
+	flex-direction: column;
+	max-width: 75%;
+}
+
+.posts{
+	display: flex;
+}
+
+.posts img{
+	width: 20%;
+	height: 20%;
+}
+
+.posts p{
+	padding-left: 1em;
+	font-size: 3em;
+	text-shadow: 0px 1px 1px #fff, 
+				0 -1px 1px #000;
+	color: #00316e;
+}
+
+.utopia{
+	padding-top: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text{
+	width: auto;
+	max-width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.stanza p{
+	color: white;
+	font-size: 3em;
+	text-shadow: 0 0 0.1em #ca35de, 
+	 			0 0 0.2em #ca35de, 
+	 			0 0 0.3em #ca35de, 
+	 			0 0 0.4em #ca35de,
+	 			0 0 0.6em #ca35de, 
+	 			0 0 0.8em #ca35de, 
+	 			0 0 1.0em #ca35de, 
+	 			0 0 1.2em #ca35de;
+	display: flex;
+	align-items: center;
+	padding: 10em 10em;
+}
+
+.back img{
+	width: 20%;
+	height: 20%;
+}
+
+.back a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width:400px){
+
+}
